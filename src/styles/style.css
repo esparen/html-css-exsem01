@@ -87,6 +87,15 @@ main {
 .quiz-input[type="text"] {
   min-inline-size: 10em;
   min-block-size: 4em;
+  box-shadow: 5px 5px 5px rgba(12, 13, 14, 0.5);
+}
+
+.quiz-input[type="text"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+  border-width: 3px;
+  outline: none; /* Remove the default focus outline */
+  /* Optional: Add box-shadow for visual emphasis */
+  box-shadow: 5px 5px 5px rgba(12, 13, 14, 0.5);
 }
 
 .radiogroup label {
