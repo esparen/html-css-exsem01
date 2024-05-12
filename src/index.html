@@ -7,15 +7,23 @@
     <title>LabQuiz</title>
   </head>
   <body>
-    <header>
-      <h2>LabQuiz</h2>
-      <p>
-        Bem vindo! Este quiz / questionário possui 8 perguntas! Digite seu nome
-        abaixo e pressione o botão "iniciar" para começarmos :)
+    <header class="page-header">
+      <h2 class="titulo">LabQuiz</h2>
+      <p class="header-main-paragraph">
+        Bem vindo! <br />
+        Este quiz / questionário possui 8 perguntas. <br />
+        Digite seu nome abaixo e pressione o botão "iniciar" para começarmos :)
       </p>
-      <label for="inputUsername"> Escolha seu nome de usuário: </label>
-      <input type="text" name="inputUsername" />
-      <input type="button" value="iniciar" />
+      <article class="login-article">
+        <form action="" method="post" class="login-form">
+          <label for="username">
+            Escolha seu nome de usuário: <br />
+            <input type="text" id="username" />
+          </label>
+          <button type="submit" class="username-btn">iniciar</button>
+        </form>
+      </article>
     </header>
+    <main></main>
   </body>
 </html>
