@@ -1,9 +1,16 @@
+body {
+  margin: 0.5rem;
+}
+
 .page-header {
   font-family: Arial, Helvetica, sans-serif;
   padding: 1rem;
   background-color: darkkhaki;
   align-content: center;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid black;
 }
 
 .header-main-paragraph {
@@ -20,11 +27,16 @@
   font-size: small;
 }
 
-#username {
+#username-input {
   background-color: bisque;
   padding: 0.5rem;
   margin: 5px;
+  margin-top: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.username-label {
+  font-size: medium;
 }
 
 .username-btn {
@@ -37,4 +49,49 @@
   background-color: aquamarine;
 }
 
+hr {
+    border: none; 
+    background-color: #ccc;
+    margin: 5px 0; 
+}
+
+main {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(206, 200, 114);
+    box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-body {
+  margin-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.quiz-question-body {
+  margin-bottom: 20px;
+  max-inline-size: 25em;
+  max-block-size: 8em;
+}
+
+.quiz-input{
+  width: 100%; 
+  box-sizing: border-box;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+.quiz-input[type="text"] {
+  min-inline-size: 10em;
+  min-block-size: 4em;
+}
+
+.radiogroup label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+.quiz-question-body fieldset {  
+  border: none;
+}
 

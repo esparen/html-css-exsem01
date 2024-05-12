@@ -14,16 +14,61 @@
         Este quiz / questionário possui 8 perguntas. <br />
         Digite seu nome abaixo e pressione o botão "iniciar" para começarmos :)
       </p>
-      <article class="login-article">
+      <section class="login-section">
         <form action="" method="post" class="login-form">
-          <label for="username">
+          <label for="username" class="username-label">
             Escolha seu nome de usuário: <br />
-            <input type="text" id="username" />
+            <input type="text" id="username-input" />
           </label>
           <button type="submit" class="username-btn">iniciar</button>
         </form>
-      </article>
+      </section>
     </header>
-    <main></main>
+    <hr />
+    <main>
+      <section class="quiz-body">
+        <ol>
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Como se define um estilo inline em HTML?
+                <br />
+                <input
+                  type="text"
+                  name="question01"
+                  class="quiz-input quiz-input-text"
+                />
+              </label>
+            </article>
+          </li>
+          <li>
+            <article class="quiz-question-body">
+              <label for="group1" class="input-text-label">
+                Qual é a tag usada para criar uma lista ordenada em HTML?
+                <br />
+                <fieldset id="radiogroup02" class="radiogroup">
+                  <label>
+                    <input type="radio" value="0" name="radiogroup02" />
+                    ol
+                  </label>
+                  <label for="">
+                    <input type="radio" value="1" name="radiogroup02" />
+                    ul
+                  </label>
+                  <label for="">
+                    <input type="radio" value="2" name="radiogroup02" />
+                    li
+                  </label>
+                  <label for="">
+                    <input type="radio" value="1" name="radiogroup02" />
+                    order-list
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+        </ol>
+      </section>
+    </main>
   </body>
 </html>
