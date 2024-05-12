@@ -62,6 +62,7 @@ main {
     border-radius: 5px;
     background-color: rgb(206, 200, 114);
     box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid black;
 }
 
 .quiz-body {
@@ -69,12 +70,25 @@ main {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
+  
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  align-content: center;
 }
 
 .quiz-question-body {
   margin-bottom: 10px;
   max-inline-size: 25em;
   max-block-size: 8em;
+  align-content: center;
+  align-items: center;
+  width: 80%; 
+  margin-bottom: 10px; 
+  padding: 20px; 
+  border-radius: 5px; 
+  background-color: #f9ffc1; 
 }
 
 .quiz-input{
@@ -103,6 +117,13 @@ main {
     margin-bottom: 2px; 
     align-items: center;
 }
+
+.checkgroup label {
+    display: block; 
+    margin-bottom: 2px; 
+    align-items: center;
+}
+
 .quiz-question-body fieldset {  
   border: none;
 }
