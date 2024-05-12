@@ -70,7 +70,7 @@ main {
 }
 
 .quiz-question-body {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   max-inline-size: 25em;
   max-block-size: 8em;
 }
@@ -89,7 +89,8 @@ main {
 
 .radiogroup label {
     display: block; 
-    margin-bottom: 10px; 
+    margin-bottom: 2px; 
+    align-items: center;
 }
 .quiz-question-body fieldset {  
   border: none;
