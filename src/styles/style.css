@@ -1,0 +1,139 @@
+body {
+  margin: 1rem;
+  width: 90%;
+   padding: 20px;
+}
+
+.page-header {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  background-color: darkkhaki;
+  align-content: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid black;
+}
+
+.header-main-paragraph {
+  font-size: 24px;
+}
+
+.titulo {
+  color: green;
+  font-size: 40px;
+}
+
+.login-form {
+  padding: 10px;
+  font-size: small;
+}
+
+#username-input {
+  background-color: bisque;
+  padding: 0.5rem;
+  margin: 5px;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.username-label {
+  font-size: medium;
+}
+
+.username-btn {
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: bisque;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.username-btn:hover {
+  background-color: aquamarine;
+}
+
+hr {
+    border: none; 
+    background-color: #ccc;
+    margin: 5px 0; 
+}
+
+main {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(206, 200, 114);
+    box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid black;
+}
+
+.quiz-body {
+  margin-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  align-content: center;
+}
+
+.quiz-question-body {
+  margin-bottom: 10px;
+  max-inline-size: 25em;
+  max-block-size: 8em;
+  align-content: center;
+  align-items: center;
+  width: 80%; 
+  margin-bottom: 10px; 
+  padding: 20px; 
+  border-radius: 5px; 
+  background-color: #f9ffc1; 
+}
+
+.quiz-input{
+  width: 100%; 
+  box-sizing: border-box;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+.quiz-input[type="text"] {
+  min-inline-size: 10em;
+  min-block-size: 4em;
+  box-shadow: 5px 5px 5px rgba(12, 13, 14, 0.5);
+}
+
+.quiz-input[type="text"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+  border-width: 3px;
+  outline: none; /* Remove the default focus outline */
+  /* Optional: Add box-shadow for visual emphasis */
+  box-shadow: 5px 5px 5px rgba(12, 13, 14, 0.5);
+}
+
+.radiogroup label {
+    display: block; 
+    margin-bottom: 2px; 
+    align-items: center;
+}
+
+.checkgroup label {
+    display: block; 
+    margin-bottom: 2px; 
+    align-items: center;
+}
+
+.quiz-question-body fieldset {  
+  border: none;
+}
+
+.page-footer {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkkhaki;
+  align-content: center;
+  text-align: center;
+  box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid black;
+}

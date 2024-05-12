@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>LabQuiz</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <h2 class="titulo">LabQuiz</h2>
+      <p class="header-main-paragraph">
+        Bem vindo! <br />
+        Este quiz / questionário possui 8 perguntas. <br />
+        Digite seu nome abaixo e pressione o botão "iniciar" para começarmos :)
+      </p>
+      <section class="login-section">
+        <form action="" method="" class="login-form">
+          <label for="username-input" class="username-label">
+            Escolha seu nome de usuário: <br />
+            <input type="text" id="username-input" />
+          </label>
+          <button type="submit" class="username-btn">iniciar</button>
+        </form>
+      </section>
+    </header>
+    <hr />
+    <main>
+      <section class="quiz-body">
+        <ol>
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label" for="question01value">
+                Como se define um estilo inline em HTML?
+                <br />
+                <input
+                  type="text"
+                  name="question01"
+                  class="quiz-input quiz-input-text"
+                  id="question01value"
+                />
+              </label>
+            </article>
+          </li>
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Qual é a tag usada para criar uma lista ordenada em HTML?
+                <br />
+                <fieldset id="radiogroup02" class="radiogroup">
+                  <label for="question02value00">
+                    <input
+                      type="radio"
+                      value="0"
+                      name="radiogroup02"
+                      id="question02value00"
+                    />
+                    ol
+                  </label>
+                  <label for="question02value01">
+                    <input
+                      type="radio"
+                      value="1"
+                      name="radiogroup02"
+                      id="question02value01"
+                    />
+                    ul
+                  </label>
+                  <label for="question02value02">
+                    <input
+                      type="radio"
+                      value="2"
+                      name="radiogroup02"
+                      id="question02value02"
+                    />
+                    li
+                  </label>
+                  <label for="question02value03">
+                    <input
+                      type="radio"
+                      value="3"
+                      name="radiogroup02"
+                      id="question02value03"
+                    />
+                    order-list
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Qual propriedade CSS é usada para alterar a cor do texto?
+                <br />
+                <fieldset id="radiogroup03" class="radiogroup">
+                  <label or="question03value00">
+                    <input
+                      type="radio"
+                      value="0"
+                      name="radiogroup03"
+                      id="question03value00"
+                    />
+                    font-color
+                  </label>
+                  <label or="question03value01">
+                    <input
+                      type="radio"
+                      value="1"
+                      name="radiogroup03"
+                      id="question03value01"
+                    />
+                    color
+                  </label>
+                  <label or="question03value02">
+                    <input
+                      type="radio"
+                      value="2"
+                      name="radiogroup03"
+                      id="question03value02"
+                    />
+                    background-color
+                  </label>
+                  <label for="question03value03">
+                    <input
+                      type="radio"
+                      value="3"
+                      name="radiogroup03"
+                      id="question03value03"
+                    />
+                    text-color
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label" for="question04value">
+                Como se referencia um arquivo CSS externo em um documento HTML?
+                <br />
+                <input
+                  type="text"
+                  name="question04"
+                  class="quiz-input quiz-input-text"
+                  id="question04value"
+                />
+              </label>
+            </article>
+          </li>
+
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Font-size é a propriedade CSS usada para alterar o tamanho da
+                fonte de um texto?
+                <br />
+                <fieldset id="radiogroup05" class="radiogroup">
+                  <label for="question05value00">
+                    <input
+                      type="radio"
+                      value="0"
+                      name="radiogroup05"
+                      id="question05value00"
+                    />
+                    sim
+                  </label>
+                  <label for="question05value01">
+                    <input
+                      type="radio"
+                      value="1"
+                      name="radiogroup05"
+                      id="question05value01"
+                    />
+                    não
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Quais são as propriedades CSS usada para definir a largura de um
+                elemento?
+                <br />
+                <fieldset id="checkgroup06" class="checkgroup">
+                  <label for="question06value00">
+                    <input
+                      type="checkbox"
+                      value="0"
+                      name="checkgroup06"
+                      id="question06value00"
+                    />
+                    height
+                  </label>
+                  <label for="question06value01">
+                    <input
+                      type="checkbox"
+                      value="1"
+                      name="checkgroup06"
+                      id="question06value01"
+                    />
+                    size
+                  </label>
+                  <label for="question06value02">
+                    <input
+                      type="checkbox"
+                      value="2"
+                      name="checkgroup06"
+                      id="question06value02"
+                    />
+                    width
+                  </label>
+                  <label for="question06value03">
+                    <input
+                      type="checkbox"
+                      value="3"
+                      name="checkgroup06"
+                      id="question06value03"
+                    />
+                    max-width
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Como se cria um comentário em CSS?
+                <br />
+                <fieldset id="checkgroup07" class="checkgroup">
+                  <label for="question07value00">
+                    <input
+                      type="checkbox"
+                      value="0"
+                      name="checkgroup06"
+                      id="question07value00"
+                    />
+                    &lt;!-- --&gt;
+                  </label>
+                  <label for="question07value01">
+                    <input
+                      type="checkbox"
+                      value="1"
+                      name="checkgroup07"
+                      id="question07value01"
+                    />
+                    //
+                  </label>
+                  <label for="question07value02">
+                    <input
+                      type="checkbox"
+                      value="2"
+                      name="checkgroup07"
+                      id="question07value02"
+                    />
+                    /* */
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+
+          <li>
+            <article class="quiz-question-body">
+              <label class="input-text-label">
+                Quais são as propriedades CSS usadas para definir a altura de um
+                elemento?
+                <br />
+                <fieldset id="checkgroup08" class="checkgroup">
+                  <label for="question08value00">
+                    <input
+                      type="checkbox"
+                      value="0"
+                      name="checkgroup08"
+                      id="question08value00"
+                    />
+                    height
+                  </label>
+                  <label for="question08value01">
+                    <input
+                      type="checkbox"
+                      value="1"
+                      name="checkgroup08"
+                      id="question08value01"
+                    />
+                    size
+                  </label>
+                  <label for="question08value02">
+                    <input
+                      type="checkbox"
+                      value="2"
+                      name="checkgroup08"
+                      id="question08value02"
+                    />
+                    min-height
+                  </label>
+                  <label for="question08value03">
+                    <input
+                      type="checkbox"
+                      value="3"
+                      name="checkgroup08"
+                      id="question08value03"
+                    />
+                    max-height
+                  </label>
+                </fieldset>
+              </label>
+            </article>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+  <footer class="page-footer">
+    <section class="footer-about-section">
+      <h5>SENAI - Fullstack Education</h5>
+      <p>
+        Exercicio da semana 1 do módulo 2
+        <br />
+        Desenvolvido por
+        <a href="https://github.com/esparen/" target="_blank"
+          >Eder Sparenberger</a
+        >
+      </p>
+    </section>
+  </footer>
+</html>
